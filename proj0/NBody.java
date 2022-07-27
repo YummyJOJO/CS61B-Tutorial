@@ -65,7 +65,7 @@ public class NBody {
 		StdOut.printf("%d\n", pps.length);
 		StdOut.printf("%.2e\n", r);
 		for(int i = 0; i < pps.length ; i++){
-			StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12\n",
+			StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
 							pps[i].xxPos, pps[i].yyPos, pps[i].xxVel,
 							pps[i].yyVel, pps[i].mass, pps[i].imgFileName);
 		}
